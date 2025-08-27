@@ -1,0 +1,62 @@
+// A linguagem computacional utilizada no code editor é a Javascript
+// Na programação em GEE duas barras servem para indicar comentario em uma linha do codigo
+/*Servem para indicar comentario em mais de uma linha do codigo
+ como nesse exemplo aqui*/
+// Ao final de uma linha de comando deve-se utilizar o ponto e vírgula ";" como indicador do final do comando.
+
+// Para declarar uma variável no GEE devemos usar o termo "var" seguido da designação e seu conteúdo
+
+/*var texto = ee.String('Eu sou um texto com números e caracteres especiais @');
+print(texto);
+// A variável 'texto' é do tipo String (texto). No GEE, usamos ee.String() para criar strings de forma explícita,
+// especialmente quando precisamos aplicar métodos específicos de strings do Earth Engine.
+
+var numero = 1;
+print(numero);
+// A variável 'numero' é do tipo Number (número). Para números inteiros ou decimais simples,
+// podemos declará-los diretamente. O GEE lida com eles de forma eficiente.
+
+var hoje = ee.Date(Date.now());
+print(hoje);
+// A variável 'hoje' é do tipo Date (data). No GEE, datas são objetos ee.Date().
+// Date.now() retorna o tempo atual em milissegundos desde a Época (1º de janeiro de 1970 UTC),
+// e ee.Date() converte esse valor para um objeto de data do Earth Engine.
+
+var ontem = hoje.advance(-1, 'day');
+print(ontem);
+// A variável 'ontem' também é do tipo Date. Aqui, demonstramos um método comum de ee.Date(),
+// o '.advance()', que permite mover a data para frente ou para trás por uma unidade de tempo específica (neste caso, 1 dia para trás).
+
+var lista = ee.List([1, 'a', 2, 'b', 3]);
+print(lista);
+// A variável 'lista' é do tipo List (lista). No GEE, listas são objetos ee.List()
+// e podem conter diferentes tipos de elementos (números, strings, outras listas, etc.).
+// Listas são muito úteis para iterar sobre coleções de dados ou para organizar informações.
+
+// --- Operações Matemáticas Básicas ---
+
+// Vamos ver como realizar as quatro operações matemáticas fundamentais com números:
+
+var a = 10;
+var b = 5;
+
+// Adição (+)
+var soma = a + b;
+print('Soma:', soma); // Saída: Soma: 15
+// A adição combina dois valores numéricos.
+
+// Subtração (-)
+var subtracao = a - b;
+print('Subtração:', subtracao); // Saída: Subtração: 5
+// A subtração calcula a diferença entre dois valores.
+
+// Multiplicação (*)
+var multiplicacao = a * b;
+print('Multiplicação:', multiplicacao); // Saída: Multiplicação: 50
+// A multiplicação calcula o produto de dois valores.
+
+// Divisão (/)
+var divisao = a / b;
+print('Divisão:', divisao); // Saída: Divisão: 2
+// A divisão calcula o quociente de dois valores.
+*/
