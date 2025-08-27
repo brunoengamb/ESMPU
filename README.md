@@ -1,6 +1,6 @@
 # ESMPU
 Arquivos com códigos GEE Utilizados no Curso Ministrado pela ESMPU
-Os artigos foram separados em 7 partes
+Os artigos foram separados em 7 partes:
 00 Conceitos da linguagem GGE
 01 Declarando uma função
 02 Abrindo uma colecao de imagens
